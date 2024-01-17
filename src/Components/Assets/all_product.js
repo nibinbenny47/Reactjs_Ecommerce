@@ -17,13 +17,13 @@ import p16_img from "./16.jpeg";
 import p17_img from "./17.jpeg";
 import p18_img from "./18.jpeg";
 import p19_img from "./19.jpeg";
-import p20_img from "./20.jpg";
+// import p20_img from "./20.jpg";
 
 let all_product=[
     {
         id:1,
         name:"Full Sleeve Tshirts",
-        category:"women",
+        category:"men",
         image:p1_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -31,7 +31,7 @@ let all_product=[
     {
         id:2,
         name:"Full Sleeve Tshirts",
-        category:"women",
+        category:"men",
         image:p2_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -39,7 +39,7 @@ let all_product=[
     {
         id:3,
         name:"Full Sleeve Tshirts",
-        category:"women",
+        category:"men",
         image:p3_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -47,7 +47,7 @@ let all_product=[
     {
         id:4,
         name:"Full Sleeve Tshirts",
-        category:"women",
+        category:"men",
         image:p4_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -55,7 +55,7 @@ let all_product=[
     {
         id:5,
         name:"Full Sleeve Tshirts",
-        category:"women",
+        category:"men",
         image:p5_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -95,7 +95,7 @@ let all_product=[
     {
         id:10,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p10_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -103,7 +103,7 @@ let all_product=[
     {
         id:11,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p11_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -111,7 +111,7 @@ let all_product=[
     {
         id:12,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p12_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -119,7 +119,7 @@ let all_product=[
     {
         id:13,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p13_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -127,14 +127,14 @@ let all_product=[
     {
         id:14,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p14_img,
         new_price: 50.0,
         old_price: 100.0,
     },{
         id:15,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p15_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -142,7 +142,7 @@ let all_product=[
     {
         id:16,
         name:"Full Sleeve Tshirts",
-        category:"Kid",
+        category:"kids",
         image:p16_img,
         new_price: 50.0,
         old_price: 100.0,
@@ -171,13 +171,14 @@ let all_product=[
         new_price: 50.0,
         old_price: 100.0,
     },
-    {
-        id:20,
-        name:"Full Sleeve Tshirts",
-        category:"women",
-        image:p20_img,
-        new_price: 50.0,
-        old_price: 100.0,
-    },
+    // {
+    //     id:20,
+    //     name:"Full Sleeve Tshirts",
+    //     category:"women",
+    //     image:p20_img,
+    //     new_price: 50.0,
+    //     old_price: 100.0,
+    // },
 
 ]
+export default all_product;
